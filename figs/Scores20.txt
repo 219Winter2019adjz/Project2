@@ -1,0 +1,81 @@
+Best scores for each:
+
+--------------------------------------------------
+No transform:
+SVD:
+Homegeneity: 0.3551
+Completeness: 0.3974
+V-measure: 0.3751
+Adjusted Rand Index: 0.1449
+Adjusted Mutual Information Score: 0.3516
+
+NMF:
+Homegeneity: 0.3043
+Completeness: 0.3463
+V-measure: 0.3239
+Adjusted Rand Index: 0.1175
+Adjusted Mutual Information Score: 0.3005
+
+--------------------------------------------------
+Scaling:
+SVD:
+Homegeneity: 0.3255
+Completeness: 0.3683
+V-measure: 0.3456
+Adjusted Rand Index: 0.1358
+Adjusted Mutual Information Score: 0.3218
+
+NMF:
+Homegeneity: 0.3103
+Completeness: 0.3483
+V-measure: 0.3282
+Adjusted Rand Index: 0.1142
+Adjusted Mutual Information Score: 0.3065
+
+--------------------------------------------------
+Log:
+SVD:
+Homegeneity: 0.4061
+Completeness: 0.4185
+V-measure: 0.4122
+Adjusted Rand Index: 0.2313
+Adjusted Mutual Information Score: 0.4029
+
+NMF:
+Homegeneity: 0.3965
+Completeness: 0.4244
+V-measure: 0.41
+Adjusted Rand Index: 0.2327
+Adjusted Mutual Information Score: 0.3932
+
+--------------------------------------------------
+Log -> Scaling:
+SVD:
+Homegeneity: 0.3866
+Completeness: 0.395
+V-measure: 0.3908
+Adjusted Rand Index: 0.2264
+Adjusted Mutual Information Score: 0.3833
+
+NMF:
+Homegeneity: 0.3891
+Completeness: 0.4372
+V-measure: 0.4118
+Adjusted Rand Index: 0.2071
+Adjusted Mutual Information Score: 0.3857
+
+--------------------------------------------------
+Scaling -> Log:
+SVD:
+Homegeneity: 0.3749
+Completeness: 0.3782
+V-measure: 0.3765
+Adjusted Rand Index: 0.2081
+Adjusted Mutual Information Score: 0.3715
+
+NMF:
+Homegeneity: 0.3856
+Completeness: 0.3911
+V-measure: 0.3883
+Adjusted Rand Index: 0.2385
+Adjusted Mutual Information Score: 0.3822
