@@ -1,4 +1,4 @@
-# # ECE219 Project 2 - Clustering
+# ECE219 Project 2 - Clustering
 
 ## Necessary packages
 
